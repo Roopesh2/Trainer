@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Trainer</title>
+	<!-- <meta name="description" content="Memory trainer">
+	<meta name="author" content="ed">
+	<meta name="theme-color" content="#B12A34"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta property="icon" content="icons/icon-32.png"> -->
+	<!-- <link rel="shortcut icon" href="icons/favicon.ico">
+  <link rel="manifest" href="./manifest.webmanifest"> -->
+  <link rel="stylesheet" href="main.css">
+  <title>Trainer</title>
+</head>
+<body>
+  <div class="container">
+    <div class="controls">
+      <button class="create">Create</button>
+      <button class="hide">Hide</button>
+      <button class="settings">Settings</button>
+    </div>
+    <div class="display"></div>
+  </div>
+  <!-- <button id="notifications">Install</button> -->
+  <!-- <script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js');
+    };
+    function noti() {
+      var options = {
+        body: "Success",
+      }
+      var notif = new Notification("Hello", options);
+      setTimeout(noti, 3000);
+    }
+    var button = document.getElementById("notifications");
+    button.addEventListener('click', function(e) {
+        Notification.requestPermission().then(function(result) {
+            if(result === 'granted') {
+              noti();
+            }
+        });
+    });
+  </script> -->
+  <script src="./data.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>

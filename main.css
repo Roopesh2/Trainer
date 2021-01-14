@@ -1,0 +1,53 @@
+body, html {
+  margin: 0;
+  padding: 20px;
+  background-color: #272727;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  width: min(400px, 100%);
+  border: 1px solid #000;
+  margin: auto;
+  text-align: center;
+}
+button {
+  font-size: 17px;
+  background-color: cadetblue;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+.controls {
+  padding: 7px;
+  padding-left: 20px;
+}
+
+.controls > .settings {
+  margin-left: 20%;
+}
+
+.display {
+  width: 60%;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border: 1px solid #000;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20%;
+}
+li {
+  margin-top: 5px;
+}
+.sett{
+  width: 100%;
+}
+input {
+  width: 70px;
+  background-color: #373737;
+  border: 0;
+  border-radius: 5px;
+  font-size: 19px;
+  padding: 2px;
+  text-align: center;
+}
